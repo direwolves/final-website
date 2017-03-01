@@ -1,15 +1,32 @@
 body {
 	background-color: black;
 	color: white;
-	text-align: center;
 }
 
 div.center-header {
 	border: 2px solid blue;
+	text-align: center;
+	position: relative;
 }
 
 div h1.page-header {
 	font-size: 20px;
 	border: 1px solid red;
 	display: inline-block;
+}
+
+/* navigation bar */
+.nav-bar {
+	border: 1px solid orange;
+	display: inline-block;
+	position: fixed;
+	margin-left: 25px;
+	margin-top:25px;
+}
+
+/* body text */
+.body-text {
+	border: 1px solid green;
+	margin-left: 150px;
+	display: block;
 }
