@@ -26,6 +26,11 @@ img.img-col {
 	max-width: 150px;
 	width: 100%;
 	float: left;
+	margin-left: 10px;
+}
+
+img.img-col:first-child {
+	margin-left: 0px;
 }
 
 /* navigation bar */
