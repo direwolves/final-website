@@ -7,12 +7,25 @@ div.center-header {
 	border: 2px solid blue;
 	text-align: center;
 	position: relative;
+	background-color: white;
+	color: black;
+	padding: 20px;
 }
 
 div h1.page-header {
-	font-size: 20px;
+	font-size: 30px;
 	border: 1px solid red;
 	display: inline-block;
+}
+
+/* images */
+div.image-selector {
+	margin-left: 150px;
+}
+img.img-col {
+	max-width: 150px;
+	width: 100%;
+	float: left;
 }
 
 /* navigation bar */
@@ -20,7 +33,7 @@ div h1.page-header {
 	border: 1px solid orange;
 	display: inline-block;
 	position: fixed;
-	margin-left: 25px;
+	margin-left: 50px;
 	margin-top:25px;
 }
 
@@ -29,4 +42,5 @@ div h1.page-header {
 	border: 1px solid green;
 	margin-left: 150px;
 	display: block;
+	clear: left;
 }
