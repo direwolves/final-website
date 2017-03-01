@@ -1,0 +1,15 @@
+body {
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+
+div.center-header {
+	border: 2px solid blue;
+}
+
+div h1.page-header {
+	font-size: 20px;
+	border: 1px solid red;
+	display: inline-block;
+}
